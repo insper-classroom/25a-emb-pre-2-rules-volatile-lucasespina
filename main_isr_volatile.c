@@ -10,8 +10,7 @@ void btn_callback(void) {
 
 void main(void) {
 
-  volatile int cnt = 0; // não precisa ser volatile
-
+   int cnt = 0; 
   while (1) {
     if (f_btn) {
       cnt++;
